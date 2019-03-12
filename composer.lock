@@ -1,0 +1,58 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "34428d7ab1be599b5cda11421e27ae3f",
+    "packages": [],
+    "packages-dev": [
+        {
+            "name": "mansartesteban/error-handler",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mansartesteban/error-handler.git",
+                "reference": "15c0a39054c2c03a59ce5138707a429a3fc56231"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mansartesteban/error-handler/zipball/15c0a39054c2c03a59ce5138707a429a3fc56231",
+                "reference": "15c0a39054c2c03a59ce5138707a429a3fc56231",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "ErrorHandler\\": "src/ErrorHandler"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Esteban",
+                    "email": "esteban.mansart@gmail.com"
+                }
+            ],
+            "description": "Error handler class which log your Exceptions and can make beautiful display of them.",
+            "time": "2019-03-11T10:19:48+00:00"
+        }
+    ],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": {
+        "mansartesteban/error-handler": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "php": ">= 7.3.0"
+    },
+    "platform-dev": []
+}
